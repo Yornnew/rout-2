@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-md mx-auto mt-10 p-6 bg-white rounded-2xl shadow-md">
+    <div class="max-w-md mx-auto mt-10 p-6 bg-white rounded-2xl shadow-md m-8">
         <h2 class="text-2xl font-semibold mb-6 text-gray-800">User Information</h2>
         <Form :validation-schema="validationSchema" @submit="handleSubmit" class="space-y-4">
             <!-- Name Field -->

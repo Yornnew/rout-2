@@ -1,9 +1,9 @@
 import './assets/main.css'
-
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './routes.js'
 import { createI18n } from 'vue-i18n'
+
 /**
  * About
 Register
@@ -19,20 +19,28 @@ const i18n = createI18n({
         en: {
             hello: 'hello world',
             about: 'About',
-            register: 'Register',
+            contact: 'Contact',
             user: 'User',
             services: 'Services',
-            projects: 'Projects',
-            setting: 'Setting'
+            // contact: 'Contact',
+            //setting: 'Setting',
+            Careers: 'Skills',
+            // button: 'button',
+            history: 'history',
+            // login:'login'
         },
         khm: {
             hello: 'សួស្តី​ពិភពលោក',
             about: 'អំពីយើង',
-            register: 'ចុះឈ្មោះ',
+            contact: 'ទំនាក់ទំនង',
             user: 'អ្នកប្រើប្រាស់',
             services: 'សេវាកម្ម',
-            projects: 'គម្រោង',
-            setting: 'ការកំណត់'
+            // contact: 'ទំនាក់ទំនង',
+            // setting: 'ការកំណត់',
+            Careers: 'អាជីព',
+            // button: 'ប៊ូតុង',
+            history: 'ប្រវត្តិប្រិតបត្តិការ',
+           // login: 'សូមអញ្ជើញចូលប្រព័ន្ធបាទ'
         }
     }
 }

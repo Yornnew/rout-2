@@ -1,11 +1,12 @@
 <template>
-  <Sofa/>
+  <CareerMe/>
 </template>
 <script>
-import Sofa from '@/components/Sofa.vue'
+import CareerMe from '@/components/CareerMe.vue';
+
 export default {
   components: {
-      Sofa
+      CareerMe
   }
 }
 </script>
