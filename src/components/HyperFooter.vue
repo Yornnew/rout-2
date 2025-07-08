@@ -6,121 +6,23 @@
       
           <!--service-->
           <div class="col-span-2 sm:col-span-1 mr-20">
-            <p class="font-medium text-gray-300 dark:text-white">Services</p>
-  
-            <ul class="mt-6 space-y-4 text-sm">
-              <li>
-                <a href="#" class="text-gray-300 transition hover:opacity-75 dark:text-gray-200">
-                  1on1 Coaching
-                </a>
-              </li>
-  
-              <li>
-                <a href="#" class="text-gray-300 transition hover:opacity-75 dark:text-gray-200">
-                  Company Review
-                </a>
-              </li>
-  
-              <li>
-                <a href="#" class="text-gray-300 transition hover:opacity-75 dark:text-gray-200">
-                  Accounts Review
-                </a>
-              </li>
-  
-            
-            </ul>
+            <router-link class="font-medium text-gray-400 dark:text-white" to="/">Home</router-link>
           </div>
           <!--company-->
           <div class="col-span-2 sm:col-span-1">
-            <p class="font-medium text-gray-400 dark:text-white">Company</p>
-  
-            <ul class="mt-6 space-y-4 text-sm">
-              <li>
-                <a href="#" class="text-gray-300 transition hover:opacity-75 dark:text-gray-200">
-                  About
-                </a>
-              </li>
-  
-              <li>
-                <a href="#" class="text-gray-300 transition hover:opacity-75 dark:text-gray-200">
-                  Meet the Team
-                </a>
-              </li>
-  
-              <li>
-                <a href="#" class="text-gray-300 transition hover:opacity-75 dark:text-gray-200">
-                  Accounts Review
-                </a>
-              </li>
-            </ul>
+            <router-link class="font-medium text-gray-400 dark:text-white" to="/about">About</router-link>
           </div>
           <!--Helpful link-->
           <div class="col-span-2 sm:col-span-1">
-            <p class="font-medium text-gray-400 dark:text-white">Helpful Links</p>
-  
-            <ul class="mt-6 space-y-4 text-sm">
-              <li>
-                <router-link to="/register" class="text-gray-300 transition hover:opacity-75 dark:text-gray-200">
-                  Contact
-                </router-link>
-              </li>
-  
-              <li>
-                <a href="#" class="text-gray-300 transition hover:opacity-75 dark:text-gray-200">
-                  FAQs
-                </a>
-              </li>
-  
-              <li>
-                <a href="#" class="text-gray-300 transition hover:opacity-75 dark:text-gray-200">
-                  Live Chat
-                </a>
-              </li>
-            </ul>
+            <router-link class="font-medium text-gray-400 dark:text-white" to="/careers">Skill</router-link>
           </div>
           <!--legal-->
           <div class="col-span-2 sm:col-span-1">
-            <p class="font-medium text-gray-400 dark:text-white">Legal</p>
-  
-            <ul class="mt-6 space-y-4 text-sm">
-              <li>
-                <a href="#" class="text-gray-300 transition hover:opacity-75 dark:text-gray-200">
-                  Accessibility
-                </a>
-              </li>
-  
-              <li>
-                <a href="#" class="text-gray-300 transition hover:opacity-75 dark:text-gray-200">
-                  Returns Policy
-                </a>
-              </li>
-  
-              <li>
-                <a href="#" class="text-gray-300 transition hover:opacity-75 dark:text-gray-200">
-                  Refund Policy
-                </a>
-              </li>
-  
-  
-            </ul>
+            <router-link class="font-medium text-gray-400 dark:text-white" to="/services">Services</router-link>
           </div>
           <!--download-->
           <div class="col-span-2 sm:col-span-1">
-            <p class="font-medium text-gray-400 dark:text-white">Downloads</p>
-  
-            <ul class="mt-6 space-y-4 text-sm">
-              <li>
-                <a href="#" class="text-gray-300 transition hover:opacity-75 dark:text-gray-200">
-                  Marketing Calendar
-                </a>
-              </li>
-  
-              <li>
-                <a href="#" class="text-gray-300 transition hover:opacity-75 dark:text-gray-200">
-                  SEO Infographics
-                </a>
-              </li>
-            </ul>
+            <router-link class="font-medium text-gray-400 dark:text-white" to="/register">Contact</router-link>
           </div>
       
   

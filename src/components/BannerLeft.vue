@@ -19,10 +19,10 @@
                         Contact
                     </router-link>
 
-                    <a class="inline-block rounded  bg-gray-300 px-5 py-3 font-medium text-gray-900 shadow-xl transition-colors hover:bg-gray-50 hover:text-gray-900"
-                        href="#">
+                    <router-link class="inline-block rounded  bg-gray-300 px-5 py-3 font-medium text-gray-900 shadow-xl transition-colors hover:bg-gray-50 hover:text-gray-900"
+                        to="/about">
                         Learn More
-                    </a>
+                    </router-link>
                 </div>
             </div>
             
